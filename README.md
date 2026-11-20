@@ -1,11 +1,9 @@
-# Stm8_2
+# Stm8_2 Ovladani tlacitka
 
 ## Účel/Zadání/Funkce
 
-* parní mlátička s elektronickým vstřikováním
-    * pára
-    * píst
-    * mikroprocesor
+* tlacitko reaguje na haranu
+* kdyz tlacitko pustim, prepne se svit LEDky
 
 
 ## Schéma zapojení
