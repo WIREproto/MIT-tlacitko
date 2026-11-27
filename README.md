@@ -25,4 +25,4 @@ SU sikovne
 Svou práci bych ohodnotil výborně. Nepracoval jsem sice samostatně,
 ale nakonec jsem hotový projekt smazal a vytvořil ho celý znovu sám.
 
-CHCI 1***
+CHCI 1****
