@@ -40,7 +40,6 @@ void init(void)
 {
     CLK_HSIPrescalerConfig(CLK_PRESCALER_HSIDIV1);      // taktovani MCU na 16MHz
     init_milis();
-    //init_uart1();
 
     GPIO_Init(LED_PORT, LED_PIN, GPIO_MODE_OUT_PP_LOW_SLOW);
 
@@ -51,16 +50,21 @@ int main(void)
 {
   
     uint32_t time = 0;
-
+    bool tlcitkovas = PUSH(BTN);
+    
     init();
 
     while (1) {
-        if (milis() - time > 333 ) {
-            REVERSE(LED); 
+        if (milis() - time > 10 ) {
+            
             time = milis();
-            //printf("%ld\n", time);
+            
+            if(tlcitkovas == 0 && PUSH(BTN) == 1){  //tak by slo if(!tlcitkovas && PUSH(BTN))
+                REVERSE(LED);
+            }
+            tlcitkovas = PUSH(BTN);
         }
-        //delay_ms(333);
+        
     }
 }
 

@@ -1,4 +1,4 @@
-# Stm8_2 Ovladani tlacitka
+# Stm8_2 Ovladani tlacitka, tlacitko prepina svit LED
 
 ## Účel/Zadání/Funkce
 
@@ -12,8 +12,7 @@
 
 ## Popis funkce
 
-1. ono se to
-2. samo se to
+Zmacknu tlacitko a reversne se stav LEDky
 
 ## ToDo
 
@@ -21,11 +20,9 @@
 
 ## Zhodnocení
 
-Na tomto projektu jsem se naučíl jedno a druhé a došlo mi jak funguje třetí.
-Zlepšil jsem se v tamtom.
-
-Svou práci bych ohodnotil chvalitebně, protože jsem nepracoval úplně samostatně,
-ale vše jsem implementoval a prozkoumal.
+SU sikovne
 
 Svou práci bych ohodnotil výborně. Nepracoval jsem sice samostatně,
 ale nakonec jsem hotový projekt smazal a vytvořil ho celý znovu sám.
+
+CHCI 1***
